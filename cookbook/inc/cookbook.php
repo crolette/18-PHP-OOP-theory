@@ -105,8 +105,8 @@ $pepper_casserole->addIngredient("Garlic cloves", 2);
 $pepper_casserole->addIngredient("onion", 1);
 $pepper_casserole->addIngredient("rice, cooked", 2, "cup");
 $pepper_casserole->addIngredient("salt", 1, "coffee spoon");
-$pepper_casserole->addIngredient("tomato sauce", 15, "ounce");
-$pepper_casserole->addIngredient("Cheddar Cheese", 8, "ounce");
+$pepper_casserole->addIngredient("tomato sauce", 15, "g");
+$pepper_casserole->addIngredient("Cheddar Cheese", 8, "g");
 
 $pepper_casserole->addInstruction("Cut peppers into bite sized pieces. In 4-quart pan, add enough water to cover peppers. Heat to boiling; add peppers. Cook about 4 minutes; drain.");
 $pepper_casserole->addInstruction("In 10-inch skillet, cook turkey, garlic and onion over medium heat 8 to 10 minutes, stirring occasionally, until beef is brown; drain.");
@@ -127,14 +127,14 @@ $lasagna->addIngredient("Sweet Italian Sausage", 500, "g");
 $lasagna->addIngredient("Hot Italian Sausage", 500, "g");
 $lasagna->addIngredient("Sweet Onion", 2);
 $lasagna->addIngredient("Garlic, chopped", 4, "soup spoon");
-$lasagna->addIngredient("Tomato Sauce", 64, "ounce");
+$lasagna->addIngredient("Tomato Sauce", 64, "g");
 $lasagna->addIngredient("Sugar", 1, "coffee spoon");
 $lasagna->addIngredient("Oregano", 2, "soup spoon");
 $lasagna->addIngredient("Parsley", 2, "soup spoon");
 $lasagna->addIngredient("Basil", 4, "soup spoon");
 $lasagna->addIngredient("Salt & Pepper to taste");
-$lasagna->addIngredient("Ricotta Cheese", 8, "ounce");
-$lasagna->addIngredient("Mozzarella Cheese", 16, "ounce");
+$lasagna->addIngredient("Ricotta Cheese", 8, "g");
+$lasagna->addIngredient("Mozzarella Cheese", 16, "g");
 $lasagna->addIngredient("Parmesan cheese, grated", .75, "cup");
 
 $lasagna->addInstruction("In a large skillet, brown sausage over medium high heat, with onions and garlic.");
@@ -151,12 +151,12 @@ $lasagna->addTag("dinner,italian");
 //Ken Alger
 $dried_mushroom_ragout = new Recipe("Dried Mushroom Ragout");
 
-$dried_mushroom_ragout->addIngredient("Pearl Onion", 11, "ounce");
-$dried_mushroom_ragout->addIngredient("Assorted Dried Mushrooms (morels, black fungus, shiitake", 1.3, "ounce");
-$dried_mushroom_ragout->addIngredient("Butter", 2, "ounce");
+$dried_mushroom_ragout->addIngredient("Pearl Onion", 11, "g");
+$dried_mushroom_ragout->addIngredient("Assorted Dried Mushrooms (morels, black fungus, shiitake)", 1.3, "g");
+$dried_mushroom_ragout->addIngredient("Butter", 2, "g");
 $dried_mushroom_ragout->addIngredient("Olive Oil", 2, "coffee spoon");
 $dried_mushroom_ragout->addIngredient("Salt & Pepper to taste");
-$dried_mushroom_ragout->addIngredient("Sour Cream", 3.5, "ounce");
+$dried_mushroom_ragout->addIngredient("Sour Cream", 3.5, "g");
 
 $dried_mushroom_ragout->addInstruction("Trim ends off pearl onions.");
 $dried_mushroom_ragout->addInstruction("Cover with boiling water and let stand for one minute.");
@@ -174,7 +174,7 @@ $dried_mushroom_ragout->addInstruction("Simmer until virtually all the liquid ha
 $dried_mushroom_ragout->addInstruction("Stir in the sour cream and simmer for a couple of minutes longer until slightly reduced.");
 $dried_mushroom_ragout->addInstruction("Taste and adjust the seasoning and serve.");
 
-$dried_mushroom_ragout->setYield("5, 4 ounce servings.");
+$dried_mushroom_ragout->setYield("5, 4 g servings.");
 
 $dried_mushroom_ragout->setSource("Grandma");
 
@@ -184,13 +184,13 @@ $dried_mushroom_ragout->addTag("dinner");
 
 $rabbit_catalan = new Recipe("Rabbit Catalan");
 
-$rabbit_catalan->addIngredient("Raisins", 1.5, "ounce");
-$rabbit_catalan->addIngredient("Rabbit", 14, "ounce");
+$rabbit_catalan->addIngredient("Raisins", 1.5, "g");
+$rabbit_catalan->addIngredient("Rabbit", 14, "g");
 $rabbit_catalan->addIngredient("Seasoned flour");
 $rabbit_catalan->addIngredient("Olive Oil", 4.5, "coffee spoon");
 $rabbit_catalan->addIngredient("Onions", .75);
-$rabbit_catalan->addIngredient("Tomatoes, skinned, liquidized, and strained", 12, "ounce");
-$rabbit_catalan->addIngredient("Rabbit stock", 7.5, "ounce");
+$rabbit_catalan->addIngredient("Tomatoes, skinned, liquidized, and strained", 12, "g");
+$rabbit_catalan->addIngredient("Rabbit stock", 7.5, "g");
 $rabbit_catalan->addIngredient("Rosemary spring", 1);
 $rabbit_catalan->addIngredient("Bay leaf", .5);
 $rabbit_catalan->addIngredient("Parsley, finely chopped", 1.5, "soup spoon");
@@ -199,7 +199,7 @@ $rabbit_catalan->addIngredient("Garlic cloves", 2);
 $rabbit_catalan->addIngredient("Blanched almonds", 10);
 $rabbit_catalan->addIngredient("Hazlenuts", 10);
 $rabbit_catalan->addIngredient("Saffron threads", .25, "coffee spoon");
-$rabbit_catalan->addIngredient("Xocolata a la pedra", .5, "ounce");
+$rabbit_catalan->addIngredient("Xocolata a la pedra", .5, "g");
 
 $rabbit_catalan->addInstruction("Cover the raisins with water and soak 20 minutes.");
 $rabbit_catalan->addInstruction("Coat the rabbit in the seasoned flour and brown in olive oil. Set aside.");
@@ -210,12 +210,12 @@ $rabbit_catalan->addInstruction("Return the rabbit to the pan, cover, and simmer
 $rabbit_catalan->addInstruction("Turn the rabbit pieces occasionally, adding additional stock if necessary.");
 $rabbit_catalan->addInstruction("White the rabbit is simmering, mix the remaining parsley with the garlic (chopped), almonds, hazelnuts, affron, and chocolate.");
 $rabbit_catalan->addInstruction("Process in a food processor until smooth.");
-$rabbit_catalan->addInstruction("Gradually work in 6.5 ounces of sauce from the rabbit.");
+$rabbit_catalan->addInstruction("Gradually work in 6.5 gs of sauce from the rabbit.");
 $rabbit_catalan->addInstruction("Spoon this mixture over the rabbit, add the raisins, drained, and stir into the mix.");
 $rabbit_catalan->addInstruction("Cover again and continue simmering until the rabbit is done.");
 $rabbit_catalan->addInstruction("Taste and adjust seasoning.");
 
-$rabbit_catalan->setYield("4, 7 ounce servings.");
+$rabbit_catalan->setYield("4, 7 g servings.");
 
 $rabbit_catalan->setSource("Juan Rodriguez");
 
@@ -228,11 +228,11 @@ $grilled_salmon_with_fennel = new Recipe("Grilled Salmon with Fennel");
 $grilled_salmon_with_fennel->addIngredient("Olive Oil", 2, "coffee spoon");
 $grilled_salmon_with_fennel->addIngredient("White onion, finely chopped", 1.25, "cup");
 $grilled_salmon_with_fennel->addIngredient("Large fennel bulbs, finely chopped", 1.25, "cup");
-$grilled_salmon_with_fennel->addIngredient("Orange liquor", .25, "ounce");
+$grilled_salmon_with_fennel->addIngredient("Orange liquor", .25, "g");
 $grilled_salmon_with_fennel->addIngredient("Salt and Pepper to taste");
 $grilled_salmon_with_fennel->addIngredient("Fresh parsley, finely chopped", 2.5, "soup spoon");
 $grilled_salmon_with_fennel->addIngredient("Fennel leaves, finely chopped", 5, "coffee spoon");
-$grilled_salmon_with_fennel->addIngredient("Salmon steaks, 5 ounces each", 5);
+$grilled_salmon_with_fennel->addIngredient("Salmon steaks, 5 gs each", 5);
 $grilled_salmon_with_fennel->addIngredient("Vegetable Oil Spray");
 
 $grilled_salmon_with_fennel->addInstruction("Heat grill to medium-hot.");
@@ -247,7 +247,7 @@ $grilled_salmon_with_fennel->addInstruction("Place on grill.");
 $grilled_salmon_with_fennel->addInstruction("Grill for approximately five minutes, then turn and grill for five minutes on the second side or until the fish just starts to flake.");
 $grilled_salmon_with_fennel->addInstruction("Serve fish over sauce.");
 
-$grilled_salmon_with_fennel->setYield("4, 6 ounce servings");
+$grilled_salmon_with_fennel->setYield("4, 6 g servings");
 
 $grilled_salmon_with_fennel->setSource("Lord of Rings");
 
@@ -263,8 +263,8 @@ $pistachio_duck->addIngredient("Wild Rice, cooked", 1/3, "cup");
 $pistachio_duck->addIngredient("White Rice, cooked", 1/3, "cup");
 $pistachio_duck->addIngredient("Egg plant", 1/4);
 $pistachio_duck->addIngredient("Asparagus spear", 1);
-$pistachio_duck->addIngredient("Duck stock", 8, "ounce");
-$pistachio_duck->addIngredient("Port wine", .5, "ounce");
+$pistachio_duck->addIngredient("Duck stock", 8, "g");
+$pistachio_duck->addIngredient("Port wine", .5, "g");
 $pistachio_duck->addIngredient("Dried cranberries", 10);
 $pistachio_duck->addIngredient("Shallots, minced", 1, "coffee spoon");
 
@@ -276,7 +276,7 @@ $pistachio_duck->addInstruction("Grill over medium high heat.");
 $pistachio_duck->addInstruction("Steam the one asparagus spear until al dente.");
 $pistachio_duck->addInstruction("For the sauce, strain any fat off the duck stock.");
 $pistachio_duck->addInstruction("Dry saute the shallots just until they start to color.");
-$pistachio_duck->addInstruction("Add 2 ounces stock and deglaze the pan.");
+$pistachio_duck->addInstruction("Add 2 gs stock and deglaze the pan.");
 $pistachio_duck->addInstruction("Add remaining duck stock, port wine, and the other five reconstituted cranberries and reduce until thickend.");
 $pistachio_duck->addInstruction("Serve the eggplant sliced and fanned over a bed of the rice.");
 $pistachio_duck->addInstruction("Slice the pistachio crusted duck breast over a pool of cranberry port sauce.");
@@ -346,7 +346,7 @@ $crab_cakes->addInstruction("Add mustard and mix well.");
 $crab_cakes->addInstruction("Add eggs and mix well.");
 $crab_cakes->addInstruction("Add minced garlic, herbs, season to taste and let cool.");
 $crab_cakes->addInstruction("Drain crab meat until dry.");
-$crab_cakes->addInstruction("Add to mixture and form 1 1/2 ounce portions.");
+$crab_cakes->addInstruction("Add to mixture and form 1 1/2 g portions.");
 $crab_cakes->addInstruction("Shape into rounds and place in refrigerator until time to prepare.");
 $crab_cakes->addInstruction("To prepare for service, saute rounds until GBD (Golden Brown & Delicious).");
 $crab_cakes->addInstruction("Serve with a fresh fruit salsa and creme fraiche.");
@@ -361,14 +361,14 @@ $crab_cakes->addTag("dinner");
 
 $beef_medallions = new Recipe("Beef Medallions with Ruby Port Sauce");
 
-$beef_medallions->addIngredient("Beef medallions, 2 ounces", 8);
+$beef_medallions->addIngredient("Beef medallions, 2 gs", 8);
 $beef_medallions->addIngredient("Shallots", 1, "soup spoon");
-$beef_medallions->addIngredient("Ruby Port", 3, "ounce");
-$beef_medallions->addIngredient("Red wine", 2, "ounce");
+$beef_medallions->addIngredient("Ruby Port", 3, "g");
+$beef_medallions->addIngredient("Red wine", 2, "g");
 $beef_medallions->addIngredient("Thyme sprig", 1);
 $beef_medallions->addIngredient("Black peppercorns", 1, "coffee spoon");
 $beef_medallions->addIngredient("Bay leaf", 1);
-$beef_medallions->addIngredient("Demi-glace or meat glaze", 5, "ounce");
+$beef_medallions->addIngredient("Demi-glace or meat glaze", 5, "g");
 $beef_medallions->addIngredient("Garlic, chopped", 1, "coffee spoon");
 $beef_medallions->addIngredient("Butter", 1, "coffee spoon");
 
@@ -376,7 +376,7 @@ $beef_medallions->addInstruction("Pan sear the medallions to carmelize the exter
 $beef_medallions->addInstruction("Reduce the shallots, port, red wine, thyme, peppercorns, and bay leaf by half.");
 $beef_medallions->addInstruction("Add demi-glace and reduce.");
 $beef_medallions->addInstruction("Strain sauce, add roasted garlic and finish with butter.");
-$beef_medallions->addInstruction("Serve two ounces of sauce with each serving of two medallions.");
+$beef_medallions->addInstruction("Serve two gs of sauce with each serving of two medallions.");
 
 $beef_medallions->setYield("4 servings");
 
@@ -423,7 +423,7 @@ $french_toast->addInstruction("Whisk together eggs, milk, cinnamon, nutmeg and l
 $french_toast->addInstruction("Put cornflakes into a separate shallow dish.");
 $french_toast->addInstruction("Dip bread in egg mixture, soak on each side for ten seconds and then coat with cornflakes.");
 $french_toast->addInstruction("Heat butter in a non-stick skillet over medium heat.");
-$french_toast->addInstruction("Cook the bread in the pan, turning ounce, until both sides are GBD (Golden brown & delicious)");
+$french_toast->addInstruction("Cook the bread in the pan, turning g, until both sides are GBD (Golden brown & delicious)");
 $french_toast->addInstruction("Serve warm with choice of toppings.");
 
 $french_toast->setYield("12 servings");
@@ -447,7 +447,7 @@ $corn_beef_hash->addInstruction("Add potatoes, mix and saute for 2 minutes.");
 $corn_beef_hash->addInstruction("Salt and pepper to taste.");
 $corn_beef_hash->addInstruction("Serve warm.");
 
-$corn_beef_hash->setYield("16, 4 ounce servings.");
+$corn_beef_hash->setYield("16, 4 g servings.");
 
 $corn_beef_hash->setSource("Zygmund Zyzzyx");
 
@@ -488,7 +488,7 @@ $spicy_omelette = new Recipe("Spicy Omelette");
 
 $spicy_omelette->addIngredient("Butter", 2, "soup spoon");
 $spicy_omelette->addIngredient("Green chili pepper, seeded & diced", 2);
-$spicy_omelette->addIngredient("Kielbasa sausage", 4, "ounce");
+$spicy_omelette->addIngredient("Kielbasa sausage", 4, "g");
 $spicy_omelette->addIngredient("Onion, diced", 3, "soup spoon");
 $spicy_omelette->addIngredient("Tomato concasse", 2, "soup spoon");
 $spicy_omelette->addIngredient("Eggs, beaten", 3);
